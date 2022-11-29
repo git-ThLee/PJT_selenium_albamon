@@ -12,13 +12,20 @@
 # 코드 실행 방법 
 
 ``` python
-> 0. 크롬드라이버 및 패키지는 준비되었다는 가정
-> 1. Anaconda Prompt 실행한다
-> 2. conda activate alcr        # 가상환경 실행
-> 3. cd git                     # 디렉토리 이동
-> 4. cd PJT_selenium_albamon    # 디렉토리 이동
-> 5. python main.py             # 파일 실행 
-> 6. conda deactivate           # 가상환경 종료 
+[VScode 환경]
+    0. 새터미널 열기
+    1. conda activate alcr
+    # 만약 conda activate 해도 (alcr) 같은 표시가 안나타나면
+    # conda init powershell 입력하고 다시 터미널 켜보기 
+
+[Anaconda Prompt 환경]
+    0. 크롬드라이버 및 패키지는 준비되었다는 가정
+    1. Anaconda Prompt 실행한다
+    2. conda activate alcr        # 가상환경 실행
+    3. cd git                     # 디렉토리 이동
+    4. cd PJT_selenium_albamon    # 디렉토리 이동
+    5. python main.py             # 파일 실행 
+    6. conda deactivate           # 가상환경 종료 
 ```
 
 ---

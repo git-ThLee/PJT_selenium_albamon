@@ -17,7 +17,8 @@
     1. conda activate alcr
     # 만약 conda activate 해도 (alcr) 같은 표시가 안나타나면
     # conda init powershell 입력하고 다시 터미널 켜보기 
-
+    2. python main.py 
+    
 [Anaconda Prompt 환경]
     0. 크롬드라이버 및 패키지는 준비되었다는 가정
     1. Anaconda Prompt 실행한다

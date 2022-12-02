@@ -1,14 +1,37 @@
-# 프로젝트 설명
+# 📡 프로젝트 설명
 
-- 재택알바를 알아보기 위해 [알바몬](https://www.albamon.com/?utm_source=google&utm_medium=cpc&utm_campaign=000.%EB%B8%8C%EB%9E%9C%EB%93%9C&utm_content=000.%EB%B8%8C%EB%9E%9C%EB%93%9C&utm_term=%EC%95%8C%EB%B0%94%EB%AA%AC&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkpwFlhluFN7r9F_MsO7EZsBTVODoMmc6JOLe0YGR2q8Zf53fmxsmNEaAhBUEALw_wcB)에서 찾는 도중에 불필요한 정보가 너무 많았다. 그래서 필요한 정보만 보기위해 위 프로젝트를 시작한다.
+> 재택알바를 알아보기 위해 [알바몬](https://www.albamon.com/?utm_source=google&utm_medium=cpc&utm_campaign=000.%EB%B8%8C%EB%9E%9C%EB%93%9C&utm_content=000.%EB%B8%8C%EB%9E%9C%EB%93%9C&utm_term=%EC%95%8C%EB%B0%94%EB%AA%AC&gclid=Cj0KCQiA1ZGcBhCoARIsAGQ0kkpwFlhluFN7r9F_MsO7EZsBTVODoMmc6JOLe0YGR2q8Zf53fmxsmNEaAhBUEALw_wcB)에서 찾는 도중에 불필요한 정보(광고 및 블로그,인스타 댓글알바류)가 너무 많았다. 이것이 불편하여 필요한 정보만 꺼내볼려고 한다.
 
-- 시작일 : 2022년 11월 29일 (화) 
-- ~~실패할수도있지만 일단 적어본다 ㅎ~~
+### 📟 프로젝트 계획
+
+1. 알바몬 홈페이지에서 "재택알바" 페이지로 이동하여 크롤링을 한다
+2. 크롤링한 데이터를 csv로 만들어서 저장한다
+3. csv파일을 이용하여 불필요한 알바를 제거하고 웹으로 출력한다
+
+---
+
+# 📃 🖋 기록
+
+|분류|내용|날짜|
+|:---:|:---|:---:|
+|진행중|프로젝트 시작!! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|2022년 11월 29일 (화)|
+|진행중|크롤링 파일(main.py) 작성완료|2022년 11월 29일 (화)|
+|문제|크롤링 과정에서 가끔 차단당함,  time.sleep으로 1차적으로 막았지만, 그래도 발생함. (완벽히 해결 못함,대신에 에러발생하면 전에 수집한 크롤링 데이터를 저장하게 만들어놓음) |2022년 11월 29일 (화)|
+|진행중|크롤링한 데이터를 csv로 저장|2022년 11월 29일 (화)|
+|진행중|csv파일로 간단히 EDA진행|2022년 11월 30일 (수)|
+|진행중|재밌는 알바 찾음  (제페토 접속 테스트해주는 알바임. 실제로 하는중ㅎ)|2022년 11월 30일 (수)|
+|진행중|EDA과정에서 ipynb파일로만 보니까 답답함, flask를 이용해서 웹으로 보기로 결정|2022년 12월 1일 (목)|
+
+
+# 참고 위키독스
+
 - [파이썬 자동화(위키독스)](https://wikidocs.net/73537)
 - [비전공자를 위한 파이썬 자동화(위키독스)](https://wikidocs.net/91474)
 
-- 종료일 : 2022년 11월 30일 (수)
-- 결론 : 블로그,인스타와 같이 불필요한 정보를 제거하고 알바를 찾다가 신기한 알바 1개 발견했다. 제페토 관련 회사 같은데 접속 테스트 명분으로 접속하고 캡처본만 보내면 되는 신기한 알바이다. 그 외에는 딱히 눈에 들어오는 알바가 없다. 
+# 사용 템플릿
+- [부트스트랩](https://bootswatch.com/flatly/)
+
+---
 
 # 한줄평
 

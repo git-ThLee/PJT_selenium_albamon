@@ -139,9 +139,7 @@ if __name__ == "__main__" :
         number_btn.find_elements_by_xpath(f".//*[contains(text(), {PAGE_NOW_NUM})]")[0].click()
         idx += 1 
 
-
-    
     ### 파일 저장 (.csv)
-    data_df.to_csv(f"{result_file}.csv", index = False)
+    data_df.to_csv(f"result/{result_file}.csv", index = False)
 
     driver.quit() # 웹 브라우저 종료. driver.close()는 탭 종료

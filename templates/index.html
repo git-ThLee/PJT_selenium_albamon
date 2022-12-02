@@ -1,0 +1,59 @@
+<head>
+    <meta charset="utf-8" />
+
+    <title>main</title>
+
+    <link rel="stylesheet" href="../static/bootstrap.css" > <!-- css파일을 연결할 때 -->
+    <script type="text/javascript" src="../static/file_upload.js"></script> <!-- js파일을 연결할 때 -->
+</head>
+
+<main class="container">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">알바몬 크롤링 결과</a>
+        
+      </div>
+    </nav>
+
+    <table class="table table-hover">
+      <thead>
+        <tr> 
+          <th scope="col">지역</th>
+          <th scope="col">기업명/모집제목</th>
+          <th scope="col">급여</th>
+          <th scope="col">근무시간</th>
+          <th scope="col">마감일</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in range(data_len) %}
+          <tr class="table-active">
+            <th scope="row">재택근무</th>
+            <td>
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <div class="d-flex w-100 justify-content-between">
+                  <h6 class="mb-1"><b>{{data['회사'][i]}}</b></h5>
+                </div>
+                <small style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{data['제목'][i]}}</small>
+              </a>
+            </td>
+            <td>
+              <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <div class="d-flex w-100 justify-content-between">
+                  <h6 class="mb-1"><b>{{data['급여형태'][i]}}</b></h5>
+                </div>
+                <small style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{data['급여금액'][i]}}</small>
+              </a>
+            </td>
+            <td>{{data['근무시간'][i]}}</td>
+            <td>{{data['마감일'][i]}}</td>
+        
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    
+    
+    
+</main>
